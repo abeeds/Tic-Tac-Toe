@@ -106,6 +106,8 @@ def TicTacToe():
         if(turn == 9):
             print("\nDraw!\n")
             break
+# TicTacToe()       
+
 
 def main():
     play_again = "y"
@@ -115,7 +117,7 @@ def main():
         play_again = input("Would you like to play again (y/n): ")
 
     print("\nThank you for playing!")
-    
+# main()    
     
 
 main()
